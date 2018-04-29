@@ -1,0 +1,6176 @@
+var matowns = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6588974,
+          41.9539909
+        ]
+      },
+      "properties": {
+        "name": "Plymouth",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1620",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.895813,
+          42.5223999
+        ]
+      },
+      "properties": {
+        "name": "Salem",
+        "county": "Essex",
+        "type": "town",
+        "start": "1626",
+        "end": "1836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9502182,
+          42.4636993
+        ]
+      },
+      "properties": {
+        "name": "Lynn",
+        "county": "Essex",
+        "type": "town",
+        "start": "1629",
+        "end": "1850"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062439,
+          42.3716888
+        ]
+      },
+      "properties": {
+        "name": "Charlestown",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1630",
+        "end": "1847"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0724411,
+          42.2918015
+        ]
+      },
+      "properties": {
+        "name": "Dorchester",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1630",
+        "end": "1870"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0841064,
+          42.3287315
+        ]
+      },
+      "properties": {
+        "name": "Roxbury",
+        "county": "Suffolk",
+        "type": "Town",
+        "start": "1630",
+        "end": "1846"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1878815,
+          42.3676109
+        ]
+      },
+      "properties": {
+        "name": "Watertown",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1630",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0567398,
+          42.3586617
+        ]
+      },
+      "properties": {
+        "name": "Boston",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1630",
+        "end": "1822"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.108757,
+          42.4198112
+        ]
+      },
+      "properties": {
+        "name": "Medford",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1630",
+        "end": "1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.83815,
+          42.6796417
+        ]
+      },
+      "properties": {
+        "name": "Ipswich",
+        "county": "Essex",
+        "type": "town",
+        "start": "1634",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3485184,
+          42.4603004
+        ]
+      },
+      "properties": {
+        "name": "Concord",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1635",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.874649,
+          42.2370491
+        ]
+      },
+      "properties": {
+        "name": "Hingham",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1635",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8613968,
+          42.7975082
+        ]
+      },
+      "properties": {
+        "name": "Newbury",
+        "county": "Essex",
+        "type": "town",
+        "start": "1635",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9388199,
+          42.2221718
+        ]
+      },
+      "properties": {
+        "name": "Weymouth",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1635",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1737671,
+          42.2466011
+        ]
+      },
+      "properties": {
+        "name": "Dedham",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1636",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7521896,
+          42.1996994
+        ]
+      },
+      "properties": {
+        "name": "Scituate",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1636",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1060104,
+          42.3667908
+        ]
+      },
+      "properties": {
+        "name": "Cambridge",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1636",
+        "end": "1846"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5892868,
+          42.1012497
+        ]
+      },
+      "properties": {
+        "name": "Springfield",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1636",
+        "end": "1852"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6887207,
+          42.0388794
+        ]
+      },
+      "properties": {
+        "name": "Duxbury",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1637",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3044205,
+          41.7019386
+        ]
+      },
+      "properties": {
+        "name": "Barnstable",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1638",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8797302,
+          42.7152901
+        ]
+      },
+      "properties": {
+        "name": "Rowley",
+        "county": "Essex",
+        "type": "town",
+        "start": "1639",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8162994,
+          42.8417511
+        ]
+      },
+      "properties": {
+        "name": "Salisbury",
+        "county": "Essex",
+        "type": "town",
+        "start": "1639",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5005264,
+          41.7582588
+        ]
+      },
+      "properties": {
+        "name": "Sandwich",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1639",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.408638,
+          42.3853798
+        ]
+      },
+      "properties": {
+        "name": "Sudbury",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1639",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1989822,
+          41.663311
+        ]
+      },
+      "properties": {
+        "name": "Yarmouth",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1639",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0887604,
+          41.9009209
+        ]
+      },
+      "properties": {
+        "name": "Taunton",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1639",
+        "end": "1864"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9889908,
+          42.2128181
+        ]
+      },
+      "properties": {
+        "name": "Braintree",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1640",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7093887,
+          42.0905495
+        ]
+      },
+      "properties": {
+        "name": "Marshfield",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1640",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0765381,
+          42.7775993
+        ]
+      },
+      "properties": {
+        "name": "Haverhill",
+        "county": "Essex",
+        "type": "town",
+        "start": "1641",
+        "end": "1869"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6681137,
+          42.6143494
+        ]
+      },
+      "properties": {
+        "name": "Gloucester",
+        "county": "Essex",
+        "type": "town",
+        "start": "1642",
+        "end": "1873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1506119,
+          42.4792213
+        ]
+      },
+      "properties": {
+        "name": "Woburn",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1642",
+        "end": "1889"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8880234,
+          42.6038017
+        ]
+      },
+      "properties": {
+        "name": "Wenham",
+        "county": "Essex",
+        "type": "town",
+        "start": "1643",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8586121,
+          42.2720604
+        ]
+      },
+      "properties": {
+        "name": "Hull",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1644",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1037827,
+          42.5259094
+        ]
+      },
+      "properties": {
+        "name": "Reading",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1644",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7721786,
+          42.5752792
+        ]
+      },
+      "properties": {
+        "name": "Manchester-By-The-Sea",
+        "county": "Essex",
+        "type": "town",
+        "start": "1645",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1996002,
+          41.8877296
+        ]
+      },
+      "properties": {
+        "name": "Rehoboth",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1645",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1419067,
+          42.6580696
+        ]
+      },
+      "properties": {
+        "name": "Andover",
+        "county": "Essex",
+        "type": "town",
+        "start": "1646",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9764709,
+          41.8300896
+        ]
+      },
+      "properties": {
+        "name": "Eastham",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1646",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8522186,
+          42.5029907
+        ]
+      },
+      "properties": {
+        "name": "Marblehead",
+        "county": "Essex",
+        "type": "town",
+        "start": "1649",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0735168,
+          42.4266014
+        ]
+      },
+      "properties": {
+        "name": "Malden",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1649",
+        "end": "1881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9506912,
+          42.6415482
+        ]
+      },
+      "properties": {
+        "name": "Topsfield",
+        "county": "Essex",
+        "type": "town",
+        "start": "1650",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3031082,
+          42.1875191
+        ]
+      },
+      "properties": {
+        "name": "Medfield",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1651",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6735764,
+          42.4550209
+        ]
+      },
+      "properties": {
+        "name": "Lancaster",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1653",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.271431,
+          42.563549
+        ]
+      },
+      "properties": {
+        "name": "Billerica",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1655",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3468018,
+          42.5982704
+        ]
+      },
+      "properties": {
+        "name": "Chelmsford",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1655",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5716629,
+          42.6085281
+        ]
+      },
+      "properties": {
+        "name": "Groton",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1655",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9764328,
+          41.9864998
+        ]
+      },
+      "properties": {
+        "name": "Bridgewater",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1656",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6318436,
+          42.3179817
+        ]
+      },
+      "properties": {
+        "name": "Northampton",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1656",
+        "end": "1883"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5479889,
+          42.3468018
+        ]
+      },
+      "properties": {
+        "name": "Marlborough",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1660",
+        "end": "1890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.589241,
+          42.3433304
+        ]
+      },
+      "properties": {
+        "name": "Hadley",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1661",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0791473,
+          42.253479
+        ]
+      },
+      "properties": {
+        "name": "Milton",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1662",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9660263,
+          41.6282082
+        ]
+      },
+      "properties": {
+        "name": "Dartmouth",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1664",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5514832,
+          42.1053581
+        ]
+      },
+      "properties": {
+        "name": "Mendon",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1667",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1902771,
+          41.7487717
+        ]
+      },
+      "properties": {
+        "name": "Swansea",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1667",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.931778,
+          42.8523293
+        ]
+      },
+      "properties": {
+        "name": "Amesbury",
+        "county": "Essex",
+        "type": "town",
+        "start": "1668",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8789825,
+          42.5477409
+        ]
+      },
+      "properties": {
+        "name": "Beverly",
+        "county": "Essex",
+        "type": "town",
+        "start": "1668",
+        "end": "1894"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9068375,
+          41.8944511
+        ]
+      },
+      "properties": {
+        "name": "Middleborough",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1669",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7541504,
+          42.1202202
+        ]
+      },
+      "properties": {
+        "name": "Westfield",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1669",
+        "end": "1920"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5964279,
+          42.3717499
+        ]
+      },
+      "properties": {
+        "name": "Hatfield",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1670",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5205002,
+          41.3909187
+        ]
+      },
+      "properties": {
+        "name": "Edgartown",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1671",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0986786,
+          41.2836418
+        ]
+      },
+      "properties": {
+        "name": "Nantucket",
+        "county": "Nantucket",
+        "type": "town",
+        "start": "1671",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6012192,
+          41.4542809
+        ]
+      },
+      "properties": {
+        "name": "Tisbury",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1671",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4817734,
+          42.6744194
+        ]
+      },
+      "properties": {
+        "name": "Dunstable",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1673",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3323517,
+          42.0630989
+        ]
+      },
+      "properties": {
+        "name": "Wrentham",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1673",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.371521,
+          42.2402802
+        ]
+      },
+      "properties": {
+        "name": "Sherborn",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1674",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6086502,
+          42.4790688
+        ]
+      },
+      "properties": {
+        "name": "Deerfield",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1677",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0697937,
+          41.7991219
+        ]
+      },
+      "properties": {
+        "name": "Freetown",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1683",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5072098,
+          42.4367218
+        ]
+      },
+      "properties": {
+        "name": "Stow",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1683",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8021927,
+          42.2634087
+        ]
+      },
+      "properties": {
+        "name": "Worcester",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1684",
+        "end": "1848"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0150833,
+          42.6930885
+        ]
+      },
+      "properties": {
+        "name": "Boxford",
+        "county": "Essex",
+        "type": "town",
+        "start": "1685",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6174774,
+          41.5523491
+        ]
+      },
+      "properties": {
+        "name": "Falmouth",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1686",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8227692,
+          41.7286415
+        ]
+      },
+      "properties": {
+        "name": "Rochester",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1686",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2070999,
+          42.3385506
+        ]
+      },
+      "properties": {
+        "name": "Newton",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1688",
+        "end": "1873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0734177,
+          41.6862717
+        ]
+      },
+      "properties": {
+        "name": "Harwich",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1694",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2810898,
+          41.9450798
+        ]
+      },
+      "properties": {
+        "name": "Attleboro",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1694",
+        "end": "1914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4163513,
+          42.279789
+        ]
+      },
+      "properties": {
+        "name": "Framingham",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1700",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3091965,
+          42.6819191
+        ]
+      },
+      "properties": {
+        "name": "Dracut",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1701",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1204681,
+          42.3334694
+        ]
+      },
+      "properties": {
+        "name": "Brookline",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1705",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8138809,
+          41.9522591
+        ]
+      },
+      "properties": {
+        "name": "Plympton",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1707",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0499115,
+          41.9934006
+        ]
+      },
+      "properties": {
+        "name": "Truro",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1709",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2360535,
+          42.2815094
+        ]
+      },
+      "properties": {
+        "name": "Needham",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1711",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1785583,
+          41.9714088
+        ]
+      },
+      "properties": {
+        "name": "Norton",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1711",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9567566,
+          42.1176186
+        ]
+      },
+      "properties": {
+        "name": "Abington",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1712",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.966423,
+          41.6848183
+        ]
+      },
+      "properties": {
+        "name": "Chatham",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1712",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1210709,
+          41.8264389
+        ]
+      },
+      "properties": {
+        "name": "Dighton",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1712",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8093796,
+          42.0720787
+        ]
+      },
+      "properties": {
+        "name": "Pembroke",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1712",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2237396,
+          42.4463196
+        ]
+      },
+      "properties": {
+        "name": "Lexington",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1713",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3985291,
+          42.1403885
+        ]
+      },
+      "properties": {
+        "name": "Medway",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1713",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8641586,
+          42.1170006
+        ]
+      },
+      "properties": {
+        "name": "Oxford",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1713",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.95224,
+          42.3755302
+        ]
+      },
+      "properties": {
+        "name": "Rutland",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1713",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2971115,
+          42.3666
+        ]
+      },
+      "properties": {
+        "name": "Weston",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1713",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7446289,
+          41.3422508
+        ]
+      },
+      "properties": {
+        "name": "Chilmark",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1714",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9153595,
+          42.2449303
+        ]
+      },
+      "properties": {
+        "name": "Leicester",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1714",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7624283,
+          42.1497917
+        ]
+      },
+      "properties": {
+        "name": "Sutton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1714",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5203781,
+          42.2287598
+        ]
+      },
+      "properties": {
+        "name": "Hopkinton",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1715",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4840698,
+          42.5381584
+        ]
+      },
+      "properties": {
+        "name": "Littleton",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1715",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6138611,
+          42.2687988
+        ]
+      },
+      "properties": {
+        "name": "Westborough",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1717",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1014786,
+          42.2164307
+        ]
+      },
+      "properties": {
+        "name": "Brookfield",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1718",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5810165,
+          42.4671593
+        ]
+      },
+      "properties": {
+        "name": "Sunderland",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1718",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4746017,
+          42.0869789
+        ]
+      },
+      "properties": {
+        "name": "Bellingham",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1719",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4573288,
+          42.6919594
+        ]
+      },
+      "properties": {
+        "name": "Northfield",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1723",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.428978,
+          42.2020493
+        ]
+      },
+      "properties": {
+        "name": "Holliston",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1724",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2509537,
+          42.1487083
+        ]
+      },
+      "properties": {
+        "name": "Walpole",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1724",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0888367,
+          42.0747185
+        ]
+      },
+      "properties": {
+        "name": "Easton",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1725",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1836777,
+          42.7301102
+        ]
+      },
+      "properties": {
+        "name": "Methuen",
+        "county": "Essex",
+        "type": "town",
+        "start": "1725",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0989609,
+          42.4805107
+        ]
+      },
+      "properties": {
+        "name": "Stoneham",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1725",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7319412,
+          41.9936981
+        ]
+      },
+      "properties": {
+        "name": "Kingston",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1726",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1028137,
+          42.1251717
+        ]
+      },
+      "properties": {
+        "name": "Stoughton",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1726",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8564606,
+          42.1255112
+        ]
+      },
+      "properties": {
+        "name": "Hanover",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1727",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1877975,
+          42.0515594
+        ]
+      },
+      "properties": {
+        "name": "Provincetown",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1727",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7219925,
+          42.2904701
+        ]
+      },
+      "properties": {
+        "name": "Shrewsbury",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1727",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5264969,
+          42.2904205
+        ]
+      },
+      "properties": {
+        "name": "Southborough",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1727",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.622467,
+          42.063549
+        ]
+      },
+      "properties": {
+        "name": "Uxbridge",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1727",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7249908,
+          42.5955696
+        ]
+      },
+      "properties": {
+        "name": "Lunenburg",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1728",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0145721,
+          42.59272
+        ]
+      },
+      "properties": {
+        "name": "Middleton",
+        "county": "Essex",
+        "type": "town",
+        "start": "1728",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2814713,
+          42.49189
+        ]
+      },
+      "properties": {
+        "name": "Bedford",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1729",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.437088,
+          42.5826607
+        ]
+      },
+      "properties": {
+        "name": "Westford",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1729",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1727829,
+          42.5474205
+        ]
+      },
+      "properties": {
+        "name": "Wilmington",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1730",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2010574,
+          42.1223106
+        ]
+      },
+      "properties": {
+        "name": "Brimfield",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1731",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0513611,
+          41.9227905
+        ]
+      },
+      "properties": {
+        "name": "Raynham",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1731",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.890892,
+          42.0437813
+        ]
+      },
+      "properties": {
+        "name": "Dudley",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1732",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5845337,
+          42.5043602
+        ]
+      },
+      "properties": {
+        "name": "Harvard",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1732",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7071991,
+          42.6675987
+        ]
+      },
+      "properties": {
+        "name": "Townsend",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1732",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3537064,
+          42.1109505
+        ]
+      },
+      "properties": {
+        "name": "Sheffield",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1733",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8598785,
+          41.9911003
+        ]
+      },
+      "properties": {
+        "name": "Halifax",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1734",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2326508,
+          42.6115913
+        ]
+      },
+      "properties": {
+        "name": "Tewksbury",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1734",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4333191,
+          42.4858017
+        ]
+      },
+      "properties": {
+        "name": "Acton",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1735",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0826111,
+          41.8466492
+        ]
+      },
+      "properties": {
+        "name": "Berkley",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1735",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6837692,
+          42.2063904
+        ]
+      },
+      "properties": {
+        "name": "Grafton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1735",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.603302,
+          42.1735916
+        ]
+      },
+      "properties": {
+        "name": "Upton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1735",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6077881,
+          42.4331207
+        ]
+      },
+      "properties": {
+        "name": "Bolton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1738",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0830383,
+          42.1100388
+        ]
+      },
+      "properties": {
+        "name": "Sturbridge",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1738",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.235321,
+          42.3764381
+        ]
+      },
+      "properties": {
+        "name": "Waltham",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1738",
+        "end": "1884"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1849213,
+          42.3667488
+        ]
+      },
+      "properties": {
+        "name": "Hardwick",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1739",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3196564,
+          42.2839203
+        ]
+      },
+      "properties": {
+        "name": "Stockbridge",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1739",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7229538,
+          41.7601013
+        ]
+      },
+      "properties": {
+        "name": "Wareham",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1739",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0323715,
+          42.3937607
+        ]
+      },
+      "properties": {
+        "name": "Chelsea",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1739",
+        "end": "1857"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7617264,
+          42.5268288
+        ]
+      },
+      "properties": {
+        "name": "Leominster",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1740",
+        "end": "1915"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9248276,
+          42.1796303
+        ]
+      },
+      "properties": {
+        "name": "Blandford",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1741",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8556137,
+          42.3465805
+        ]
+      },
+      "properties": {
+        "name": "Holden",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1741",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1942673,
+          42.2129097
+        ]
+      },
+      "properties": {
+        "name": "Warren",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1742",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4118805,
+          42.3910713
+        ]
+      },
+      "properties": {
+        "name": "Pelham",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1743",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.296389,
+          42.359167
+        ]
+      },
+      "properties": {
+        "name": "Greenwich",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1754",
+        "end": "1938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3030624,
+          42.4257088
+        ]
+      },
+      "properties": {
+        "name": "Lincoln",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1754",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1918411,
+          42.4856186
+        ]
+      },
+      "properties": {
+        "name": "Petersham",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1754",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4007111,
+          42.27705
+        ]
+      },
+      "properties": {
+        "name": "Belchertown",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1761",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6988907,
+          42.6726189
+        ]
+      },
+      "properties": {
+        "name": "Colrain",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1761",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3633423,
+          42.1932487
+        ]
+      },
+      "properties": {
+        "name": "Great Barrington",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1761",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4101334,
+          42.4528618
+        ]
+      },
+      "properties": {
+        "name": "Shutesbury",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1761",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2542191,
+          42.4473801
+        ]
+      },
+      "properties": {
+        "name": "Pittsfield",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1761",
+        "end": "1891"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2340012,
+          42.5937309
+        ]
+      },
+      "properties": {
+        "name": "Athol",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5504379,
+          42.6711807
+        ]
+      },
+      "properties": {
+        "name": "Bernardston",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8436966,
+          42.3921013
+        ]
+      },
+      "properties": {
+        "name": "Chesterfield",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1078873,
+          42.1077003
+        ]
+      },
+      "properties": {
+        "name": "Sandisfield",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0370026,
+          42.5613785
+        ]
+      },
+      "properties": {
+        "name": "Templeton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2050781,
+          42.2469482
+        ]
+      },
+      "properties": {
+        "name": "Tyringham",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1762",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3380814,
+          42.6821213
+        ]
+      },
+      "properties": {
+        "name": "Warwick",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1763",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4415131,
+          42.1500816
+        ]
+      },
+      "properties": {
+        "name": "Wilbraham",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1763",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0461578,
+          42.6841698
+        ]
+      },
+      "properties": {
+        "name": "Winchendon",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1764",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8726273,
+          42.8119698
+        ]
+      },
+      "properties": {
+        "name": "Newburyport",
+        "county": "Essex",
+        "type": "town",
+        "start": "1764",
+        "end": "1851"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7922592,
+          42.5817604
+        ]
+      },
+      "properties": {
+        "name": "Fitchburg",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1764",
+        "end": "1872"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9169312,
+          42.6281395
+        ]
+      },
+      "properties": {
+        "name": "Ashburnham",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7909927,
+          42.5261612
+        ]
+      },
+      "properties": {
+        "name": "Ashfield",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0633621,
+          42.2829094
+        ]
+      },
+      "properties": {
+        "name": "Becket",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87117,
+          42.6280594
+        ]
+      },
+      "properties": {
+        "name": "Charlemont",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9741516,
+          42.2761688
+        ]
+      },
+      "properties": {
+        "name": "Chester",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2292328,
+          42.5365791
+        ]
+      },
+      "properties": {
+        "name": "Lanesborough",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3678513,
+          42.3737793
+        ]
+      },
+      "properties": {
+        "name": "Richmond",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2441101,
+          42.6934509
+        ]
+      },
+      "properties": {
+        "name": "Royalston",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2087708,
+          42.7146606
+        ]
+      },
+      "properties": {
+        "name": "Williamstown",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1765",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8202209,
+          42.6778908
+        ]
+      },
+      "properties": {
+        "name": "Ashby",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1767",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5160828,
+          42.2581406
+        ]
+      },
+      "properties": {
+        "name": "Granby",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1768",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9375381,
+          42.3999901
+        ]
+      },
+      "properties": {
+        "name": "Worthington",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1768",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9110794,
+          42.5445786
+        ]
+      },
+      "properties": {
+        "name": "Westminster",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1770",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0446777,
+          42.4376297
+        ]
+      },
+      "properties": {
+        "name": "Peru",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1771",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8786163,
+          42.4496002
+        ]
+      },
+      "properties": {
+        "name": "Princeton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1771",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6351624,
+          42.4416809
+        ]
+      },
+      "properties": {
+        "name": "Whately",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1771",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7028427,
+          42.3746185
+        ]
+      },
+      "properties": {
+        "name": "Williamsburg",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1771",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0558701,
+          42.5109901
+        ]
+      },
+      "properties": {
+        "name": "Windsor",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1771",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4153519,
+          42.2363586
+        ]
+      },
+      "properties": {
+        "name": "Alford",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1773",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0914536,
+          42.1911888
+        ]
+      },
+      "properties": {
+        "name": "Otis",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1773",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1082764,
+          42.4113083
+        ]
+      },
+      "properties": {
+        "name": "Barre",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1774",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4981308,
+          42.4647102
+        ]
+      },
+      "properties": {
+        "name": "Leverett",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1774",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.621727,
+          42.1058388
+        ]
+      },
+      "properties": {
+        "name": "West Springfield",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1774",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5332031,
+          42.3707695
+        ]
+      },
+      "properties": {
+        "name": "Amherst",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9700775,
+          42.1381912
+        ]
+      },
+      "properties": {
+        "name": "Charlton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8038406,
+          42.2433014
+        ]
+      },
+      "properties": {
+        "name": "Cohasset",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.701767,
+          42.5087204
+        ]
+      },
+      "properties": {
+        "name": "Conway",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9365005,
+          42.5701103
+        ]
+      },
+      "properties": {
+        "name": "Danvers",
+        "county": "Essex",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7096024,
+          42.0659103
+        ]
+      },
+      "properties": {
+        "name": "Douglas",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4349365,
+          42.1960106
+        ]
+      },
+      "properties": {
+        "name": "Egremont",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8619385,
+          42.0666695
+        ]
+      },
+      "properties": {
+        "name": "Granville",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5981216,
+          42.5875282
+        ]
+      },
+      "properties": {
+        "name": "Greenfield",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0072098,
+          42.4753685
+        ]
+      },
+      "properties": {
+        "name": "Hubbardston",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8794327,
+          42.2329788
+        ]
+      },
+      "properties": {
+        "name": "Huntington",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2842102,
+          42.3589211
+        ]
+      },
+      "properties": {
+        "name": "Lenox",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4661865,
+          42.1710815
+        ]
+      },
+      "properties": {
+        "name": "Ludlow",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2164383,
+          42.0236893
+        ]
+      },
+      "properties": {
+        "name": "Mansfield",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3157501,
+          42.0995903
+        ]
+      },
+      "properties": {
+        "name": "Monson",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.531929,
+          42.5328102
+        ]
+      },
+      "properties": {
+        "name": "Montague",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1216812,
+          42.3180618
+        ]
+      },
+      "properties": {
+        "name": "New Braintree",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2650299,
+          42.1107903
+        ]
+      },
+      "properties": {
+        "name": "New Marlborough",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3326416,
+          42.504509
+        ]
+      },
+      "properties": {
+        "name": "New Salem",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6550522,
+          42.3106308
+        ]
+      },
+      "properties": {
+        "name": "Northborough",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6663971,
+          42.1103516
+        ]
+      },
+      "properties": {
+        "name": "Northbridge",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0427704,
+          42.3537483
+        ]
+      },
+      "properties": {
+        "name": "Oakham",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3265305,
+          42.1577187
+        ]
+      },
+      "properties": {
+        "name": "Palmer",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9278488,
+          42.3113708
+        ]
+      },
+      "properties": {
+        "name": "Paxton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5981293,
+          42.6677094
+        ]
+      },
+      "properties": {
+        "name": "Pepperell",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1807785,
+          42.1205902
+        ]
+      },
+      "properties": {
+        "name": "Sharon",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7383423,
+          42.603611
+        ]
+      },
+      "properties": {
+        "name": "Shelburne",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.641243,
+          42.5455704
+        ]
+      },
+      "properties": {
+        "name": "Shirley",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5941467,
+          42.2147598
+        ]
+      },
+      "properties": {
+        "name": "South Hadley",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7284622,
+          42.22892
+        ]
+      },
+      "properties": {
+        "name": "Southampton",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7704391,
+          42.0545387
+        ]
+      },
+      "properties": {
+        "name": "Southwick",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9934311,
+          42.2431717
+        ]
+      },
+      "properties": {
+        "name": "Spencer",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.223793,
+          42.0743408
+        ]
+      },
+      "properties": {
+        "name": "Wales",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2513733,
+          42.2559204
+        ]
+      },
+      "properties": {
+        "name": "Ware",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.015213,
+          41.9282494
+        ]
+      },
+      "properties": {
+        "name": "Wellfleet",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3672409,
+          42.3343201
+        ]
+      },
+      "properties": {
+        "name": "West Stockbridge",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1775",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3122101,
+          42.5475998
+        ]
+      },
+      "properties": {
+        "name": "Hancock",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1776",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2502823,
+          42.3055115
+        ]
+      },
+      "properties": {
+        "name": "Lee",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1777",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1138763,
+          42.3738785
+        ]
+      },
+      "properties": {
+        "name": "Washington",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1777",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1200027,
+          42.6200104
+        ]
+      },
+      "properties": {
+        "name": "Adams",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1778",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8339233,
+          42.1962013
+        ]
+      },
+      "properties": {
+        "name": "Auburn",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1778",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2475815,
+          42.0636215
+        ]
+      },
+      "properties": {
+        "name": "Foxborough",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1778",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.382019,
+          42.0801086
+        ]
+      },
+      "properties": {
+        "name": "Franklin",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1778",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7750168,
+          42.3036118
+        ]
+      },
+      "properties": {
+        "name": "Westhampton",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1778",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7413712,
+          42.6038208
+        ]
+      },
+      "properties": {
+        "name": "Buckland",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1779",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8916931,
+          42.4588203
+        ]
+      },
+      "properties": {
+        "name": "Cummington",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1779",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4538498,
+          42.1015511
+        ]
+      },
+      "properties": {
+        "name": "Mount Washington",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1779",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.35112,
+          42.528801
+        ]
+      },
+      "properties": {
+        "name": "Carlisle",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1780",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5272217,
+          42.150589
+        ]
+      },
+      "properties": {
+        "name": "Milford",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1780",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8247681,
+          42.2226105
+        ]
+      },
+      "properties": {
+        "name": "Montgomery",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1780",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3603134,
+          42.3632011
+        ]
+      },
+      "properties": {
+        "name": "Wayland",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1780",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7996063,
+          42.4401398
+        ]
+      },
+      "properties": {
+        "name": "Goshen",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1781",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3461685,
+          42.2840004
+        ]
+      },
+      "properties": {
+        "name": "Natick",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1781",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7604599,
+          42.4375191
+        ]
+      },
+      "properties": {
+        "name": "Sterling",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1781",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3948288,
+          42.5482407
+        ]
+      },
+      "properties": {
+        "name": "Wendell",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1781",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5547485,
+          42.0556984
+        ]
+      },
+      "properties": {
+        "name": "Longmeadow",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1783",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0109177,
+          42.3449593
+        ]
+      },
+      "properties": {
+        "name": "Middlefield",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1783",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1639709,
+          42.4728699
+        ]
+      },
+      "properties": {
+        "name": "Dalton",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1784",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7538223,
+          42.32547
+        ]
+      },
+      "properties": {
+        "name": "Boylston",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1785",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8215714,
+          42.6735802
+        ]
+      },
+      "properties": {
+        "name": "Heath",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1785",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8991928,
+          42.6939583
+        ]
+      },
+      "properties": {
+        "name": "Rowe",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1785",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.995369,
+          42.5746803
+        ]
+      },
+      "properties": {
+        "name": "Gardner",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1785",
+        "end": "1923"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1323929,
+          42.5490608
+        ]
+      },
+      "properties": {
+        "name": "Phillipston",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1786",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0797882,
+          41.6582298
+        ]
+      },
+      "properties": {
+        "name": "Westport",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1787",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9308701,
+          41.6376686
+        ]
+      },
+      "properties": {
+        "name": "New Bedford",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1787",
+        "end": "1847"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7658691,
+          41.8845482
+        ]
+      },
+      "properties": {
+        "name": "Carver",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1790",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1414566,
+          41.7513809
+        ]
+      },
+      "properties": {
+        "name": "Somerset",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1790",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9146194,
+          42.5990105
+        ]
+      },
+      "properties": {
+        "name": "Hawley",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1792",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8562164,
+          42.1897392
+        ]
+      },
+      "properties": {
+        "name": "Russell",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1792",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.004158,
+          42.2522812
+        ]
+      },
+      "properties": {
+        "name": "Quincy",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1792",
+        "end": "1888"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1624374,
+          42.5620384
+        ]
+      },
+      "properties": {
+        "name": "Cheshire",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1793",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.155983,
+          41.688839
+        ]
+      },
+      "properties": {
+        "name": "Dennis",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1793",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.498848,
+          42.6411514
+        ]
+      },
+      "properties": {
+        "name": "Gill",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1793",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8549881,
+          42.620369
+        ]
+      },
+      "properties": {
+        "name": "Hamilton",
+        "county": "Essex",
+        "type": "town",
+        "start": "1793",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0550766,
+          42.1853485
+        ]
+      },
+      "properties": {
+        "name": "Randolph",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1793",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1447906,
+          42.1591988
+        ]
+      },
+      "properties": {
+        "name": "Canton",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1797",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.9899597,
+          41.7864799
+        ]
+      },
+      "properties": {
+        "name": "Orleans",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1797",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.026268,
+          42.5653
+        ]
+      },
+      "properties": {
+        "name": "Savoy",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1797",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0842438,
+          42.7118988
+        ]
+      },
+      "properties": {
+        "name": "Clarksburg",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1798",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1937637,
+          42.5058212
+        ]
+      },
+      "properties": {
+        "name": "Burlington",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1799",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5661926,
+          42.1561852
+        ]
+      },
+      "properties": {
+        "name": "Dana",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1801",
+        "end": "1938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0746765,
+          41.7638283
+        ]
+      },
+      "properties": {
+        "name": "Brewster",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1803",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1436462,
+          41.6973495
+        ]
+      },
+      "properties": {
+        "name": "Fall River",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1803",
+        "end": "1854"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1234589,
+          42.4378319
+        ]
+      },
+      "properties": {
+        "name": "Hinsdale",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1804",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0111313,
+          42.6671104
+        ]
+      },
+      "properties": {
+        "name": "Florida",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1805",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1532822,
+          42.3496284
+        ]
+      },
+      "properties": {
+        "name": "Brighton",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1806",
+        "end": "1874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1567612,
+          42.4162903
+        ]
+      },
+      "properties": {
+        "name": "Arlington",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1807",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9074097,
+          42.5134697
+        ]
+      },
+      "properties": {
+        "name": "Plainfield",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1807",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7839737,
+          42.358429
+        ]
+      },
+      "properties": {
+        "name": "West Boylston",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1808",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6721268,
+          42.2709503
+        ]
+      },
+      "properties": {
+        "name": "Easthampton",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1809",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6314926,
+          42.7010117
+        ]
+      },
+      "properties": {
+        "name": "Leyden",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1809",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4255981,
+          42.676651
+        ]
+      },
+      "properties": {
+        "name": "Tyngsborough",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1809",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3100815,
+          42.5915604
+        ]
+      },
+      "properties": {
+        "name": "Orange",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1810",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9890823,
+          42.0809212
+        ]
+      },
+      "properties": {
+        "name": "Tolland",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1810",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6285934,
+          42.3611107
+        ]
+      },
+      "properties": {
+        "name": "Berlin",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1812",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9038467,
+          41.635479
+        ]
+      },
+      "properties": {
+        "name": "Fairhaven",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1812",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.085228,
+          42.2691994
+        ]
+      },
+      "properties": {
+        "name": "North Brookfield",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1812",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3251877,
+          41.8297882
+        ]
+      },
+      "properties": {
+        "name": "Seekonk",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1812",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0693436,
+          42.5024414
+        ]
+      },
+      "properties": {
+        "name": "Wakefield",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1812",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.7627106,
+          42.1902504
+        ]
+      },
+      "properties": {
+        "name": "Millbury",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1813",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0468903,
+          42.53862
+        ]
+      },
+      "properties": {
+        "name": "Lynnfield",
+        "county": "Essex",
+        "type": "town",
+        "start": "1814",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.332778,
+          42.316667
+        ]
+      },
+      "properties": {
+        "name": "Enfield",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1816",
+        "end": "1938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.009697,
+          42.4653206
+        ]
+      },
+      "properties": {
+        "name": "Saugus",
+        "county": "Essex",
+        "type": "town",
+        "start": "1815",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0326767,
+          42.0745201
+        ]
+      },
+      "properties": {
+        "name": "Southbridge",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1816",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7811279,
+          42.6325111
+        ]
+      },
+      "properties": {
+        "name": "Essex",
+        "county": "Essex",
+        "type": "town",
+        "start": "1819",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9921875,
+          42.7992096
+        ]
+      },
+      "properties": {
+        "name": "West Newbury",
+        "county": "Essex",
+        "type": "town",
+        "start": "1819",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8685074,
+          42.0658112
+        ]
+      },
+      "properties": {
+        "name": "Hanson",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1820",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0172424,
+          42.0831795
+        ]
+      },
+      "properties": {
+        "name": "Brockton",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1821",
+        "end": "1881"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3447189,
+          42.3916702
+        ]
+      },
+      "properties": {
+        "name": "Prescott",
+        "county": "Hampshire",
+        "type": "town",
+        "start": "1822",
+        "end": "1938"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9413223,
+          42.7222595
+        ]
+      },
+      "properties": {
+        "name": "Monroe",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1822",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0224533,
+          42.0167389
+        ]
+      },
+      "properties": {
+        "name": "West Bridgewater",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1822",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9580078,
+          42.0314293
+        ]
+      },
+      "properties": {
+        "name": "East Bridgewater",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1823",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3128433,
+          42.6458817
+        ]
+      },
+      "properties": {
+        "name": "Lowell",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1826",
+        "end": "1836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8809662,
+          42.0497398
+        ]
+      },
+      "properties": {
+        "name": "Webster",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1832",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5140991,
+          42.4840088
+        ]
+      },
+      "properties": {
+        "name": "Boxborough",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1835",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1600494,
+          42.0658417
+        ]
+      },
+      "properties": {
+        "name": "Holland",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1835",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2424088,
+          42.6040688
+        ]
+      },
+      "properties": {
+        "name": "New Ashford",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1835",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.280098,
+          42.2442818
+        ]
+      },
+      "properties": {
+        "name": "Dover",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1836",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3986435,
+          42.5996513
+        ]
+      },
+      "properties": {
+        "name": "Erving",
+        "county": "Franklin",
+        "type": "town",
+        "start": "1838",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9928513,
+          42.7230301
+        ]
+      },
+      "properties": {
+        "name": "Georgetown",
+        "county": "Essex",
+        "type": "town",
+        "start": "1838",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6188965,
+          42.6567688
+        ]
+      },
+      "properties": {
+        "name": "Rockport",
+        "county": "Essex",
+        "type": "town",
+        "start": "1840",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0984497,
+          42.3867493
+        ]
+      },
+      "properties": {
+        "name": "Somerville",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1842",
+        "end": "1872"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5329971,
+          42.0184517
+        ]
+      },
+      "properties": {
+        "name": "Blackstone",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1845",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4657898,
+          42.2612991
+        ]
+      },
+      "properties": {
+        "name": "Ashland",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1846",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0841064,
+          42.3287315
+        ]
+      },
+      "properties": {
+        "name": "Roxbury",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1846",
+        "end": "1868"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.013588,
+          42.4080696
+        ]
+      },
+      "properties": {
+        "name": "Revere",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1846",
+        "end": "1914"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2136078,
+          42.1794395
+        ]
+      },
+      "properties": {
+        "name": "Monterey",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1847",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062439,
+          42.3716888
+        ]
+      },
+      "properties": {
+        "name": "Charlestown",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1847",
+        "end": "1873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1607971,
+          42.7103996
+        ]
+      },
+      "properties": {
+        "name": "Lawrence",
+        "county": "Essex",
+        "type": "town",
+        "start": "1847",
+        "end": "1853"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1421432,
+          42.2348785
+        ]
+      },
+      "properties": {
+        "name": "West Brookfield",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1848",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6069717,
+          42.1481895
+        ]
+      },
+      "properties": {
+        "name": "Chicopee",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1848",
+        "end": "1890"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8032227,
+          42.1619797
+        ]
+      },
+      "properties": {
+        "name": "Norwell",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1849",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6823807,
+          42.4168892
+        ]
+      },
+      "properties": {
+        "name": "Clinton",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1850",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0256577,
+          42.7670403
+        ]
+      },
+      "properties": {
+        "name": "Groveland",
+        "county": "Essex",
+        "type": "town",
+        "start": "1850",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.134079,
+          42.4531403
+        ]
+      },
+      "properties": {
+        "name": "Winchester",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1850",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6074295,
+          42.2069588
+        ]
+      },
+      "properties": {
+        "name": "Holyoke",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1850",
+        "end": "1873"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0640488,
+          42.4571686
+        ]
+      },
+      "properties": {
+        "name": "Melrose",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1850",
+        "end": "1899"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1570816,
+          42.2834511
+        ]
+      },
+      "properties": {
+        "name": "West Roxbury",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1851",
+        "end": "1874"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7626266,
+          41.7030907
+        ]
+      },
+      "properties": {
+        "name": "Marion",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1852",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9200287,
+          42.4697304
+        ]
+      },
+      "properties": {
+        "name": "Swampscott",
+        "county": "Essex",
+        "type": "town",
+        "start": "1852",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.982193,
+          42.3816299
+        ]
+      },
+      "properties": {
+        "name": "Winthrop",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1852",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9488297,
+          41.8457298
+        ]
+      },
+      "properties": {
+        "name": "Lakeville",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1853",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9144974,
+          42.4242096
+        ]
+      },
+      "properties": {
+        "name": "Nahant",
+        "county": "Essex",
+        "type": "town",
+        "start": "1853",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0788803,
+          42.5745506
+        ]
+      },
+      "properties": {
+        "name": "North Reading",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1853",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.627104,
+          42.089381
+        ]
+      },
+      "properties": {
+        "name": "Agawam",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1855",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1312408,
+          42.7030907
+        ]
+      },
+      "properties": {
+        "name": "North Andover",
+        "county": "Essex",
+        "type": "town",
+        "start": "1855",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8167725,
+          41.6591187
+        ]
+      },
+      "properties": {
+        "name": "Mattapoisett",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1857",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1783371,
+          42.3970604
+        ]
+      },
+      "properties": {
+        "name": "Belmont",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1859",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9093781,
+          41.6807785
+        ]
+      },
+      "properties": {
+        "name": "Acushnet",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1860",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9290771,
+          41.4218712
+        ]
+      },
+      "properties": {
+        "name": "Gosnold",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1864",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.564621,
+          42.3913689
+        ]
+      },
+      "properties": {
+        "name": "Hudson",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1866",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1239471,
+          42.2564316
+        ]
+      },
+      "properties": {
+        "name": "Hyde Park",
+        "county": "Suffolk",
+        "type": "town",
+        "start": "1868",
+        "end": "1912"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9285126,
+          42.5263596
+        ]
+      },
+      "properties": {
+        "name": "Peabody",
+        "county": "Essex",
+        "type": "town",
+        "start": "1868",
+        "end": "1916"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8152084,
+          41.3434792
+        ]
+      },
+      "properties": {
+        "name": "Aquinnah",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1870",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4909134,
+          41.6182213
+        ]
+      },
+      "properties": {
+        "name": "Mashpee",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1870",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3308334,
+          42.1194115
+        ]
+      },
+      "properties": {
+        "name": "Norfolk",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1870",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0544968,
+          42.4081688
+        ]
+      },
+      "properties": {
+        "name": "Everett",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1870",
+        "end": "1892"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5863876,
+          42.5594406
+        ]
+      },
+      "properties": {
+        "name": "Ayer",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1871",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4516983,
+          42.4333801
+        ]
+      },
+      "properties": {
+        "name": "Maynard",
+        "county": "Middlesex",
+        "type": "town",
+        "start": "1871",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0081635,
+          42.154789
+        ]
+      },
+      "properties": {
+        "name": "Holbrook",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1872",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1997833,
+          42.1958313
+        ]
+      },
+      "properties": {
+        "name": "Norwood",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1872",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9136124,
+          42.1279182
+        ]
+      },
+      "properties": {
+        "name": "Rockland",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1874",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9352875,
+          42.0808411
+        ]
+      },
+      "properties": {
+        "name": "Whitman",
+        "county": "Plymouth",
+        "type": "town",
+        "start": "1875",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0019379,
+          42.8331718
+        ]
+      },
+      "properties": {
+        "name": "Merrimac",
+        "county": "Essex",
+        "type": "town",
+        "start": "1876",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4135818,
+          42.0639801
+        ]
+      },
+      "properties": {
+        "name": "Hampden",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1878",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1149368,
+          42.6998482
+        ]
+      },
+      "properties": {
+        "name": "North Adams",
+        "county": "Berkshire",
+        "type": "town",
+        "start": "1878",
+        "end": "1895"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5562515,
+          41.4578094
+        ]
+      },
+      "properties": {
+        "name": "Oak Bluffs",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1880",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2919769,
+          42.2968903
+        ]
+      },
+      "properties": {
+        "name": "Wellesley",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1881",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5882874,
+          41.7426414
+        ]
+      },
+      "properties": {
+        "name": "Bourne",
+        "county": "Barnstable",
+        "type": "town",
+        "start": "1884",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3575134,
+          42.1673393
+        ]
+      },
+      "properties": {
+        "name": "Millis",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1885",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5372772,
+          42.1261101
+        ]
+      },
+      "properties": {
+        "name": "Hopedale",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1886",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.332962,
+          41.9807205
+        ]
+      },
+      "properties": {
+        "name": "North Attleborough",
+        "county": "Bristol",
+        "type": "town",
+        "start": "1887",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0391998,
+          42.1297913
+        ]
+      },
+      "properties": {
+        "name": "Avon",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1888",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.67453,
+          41.3813896
+        ]
+      },
+      "properties": {
+        "name": "West Tisbury",
+        "county": "Dukes",
+        "type": "town",
+        "start": "1892",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5208969,
+          42.0483208
+        ]
+      },
+      "properties": {
+        "name": "East Longmeadow",
+        "county": "Hampden",
+        "type": "town",
+        "start": "1894",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2036133,
+          42.2209702
+        ]
+      },
+      "properties": {
+        "name": "Westwood",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1897",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3348236,
+          42.0042
+        ]
+      },
+      "properties": {
+        "name": "Plainville",
+        "county": "Norfolk",
+        "type": "town",
+        "start": "1905",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.580719,
+          42.0271111
+        ]
+      },
+      "properties": {
+        "name": "Millville",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1916",
+        "end": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0466537,
+          42.2254105
+        ]
+      },
+      "properties": {
+        "name": "East Brookfield",
+        "county": "Worcester",
+        "type": "town",
+        "start": "1920",
+        "end": ""
+      }
+    }
+  ]
+}

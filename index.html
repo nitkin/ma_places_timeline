@@ -1,6 +1,393 @@
-<HTML>
+<!DOCTYPE html>
+<html>
+
 <head>
 <p>Heyooooo</p>
 <p>idk what this index is for!</p>
+    <meta charset=utf-8 />
+    <title>Title</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+    <!--Leaflet scripts:-->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    
+    <!--Plugin scripts:-->
+    <script src="javascripts/leaflet.timeline.js"></script>
+    <script src="javascripts/moment.min.js"></script> 
+    
+    <style>
+        
+        /*This makes the map take the whole window. Width needs to calc(100% - *X*px) for full screen so it knows to resize with the window and leaves space for footer.*/
+        
+        #map { 
+            height: calc(100%); 
+            width: 100%; 
+            position: absolute !important; 
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            background: whitesmoke;
+            font-family: Lato, sans-serif;
+            color: #0D0000;
+        }
+        
+        /*These bits of code came from the Leaflet.timeline examples on github. They give the timeline slider and buttons a nice size and place.*/
+        
+        .leaflet-bottom.leaflet-left {
+            width: 100%;
+        }
+        
+        .leaflet-control-container.leaflet-timeline-controls{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+        }  
+        
+        .leaflet-control.leaflet-timeline-control {
+        width: 96%;
+        box-sizing: border-box;
+        margin: 2%;
+        margin-bottom: 20px;
+        text-align: center;
+        }
+        
+        /*Sets background of control elements to a grey color.*/
+        
+        .leaflet-control-layers-expanded { 
+            background: #BBBBBB; 
+        }
+
+        /*These are all the variables used in animations and transitions. Change these to change marker colors.*/
+        
+        :root{
+            --settlement-color: #FFFFFF;
+            --towns-color: #BF0A30;
+            --cities-color: #002868;
+            --annex-color: #252525;
+            --border-color: darkgray;
+            --circle-rad: 50%;
+            --pt-opacity: 0.6;
+            --pt-borders: 1px solid black;
+        }        
+        
+        /*These are the keyframes for point change animations. They work pretty well, but could probably be a bit prettier.*/
+        
+        @keyframes sett-in { 
+            from { opacity: 0.0;
+                height: 0px;
+                width: 0px;
+                background-color: var(--settlement-color)}
+            75% {
+                height: 4px;
+                width: 4px;
+                margin-left: -3px;
+                margin-top: -3px}
+            to {
+                background-color: var(--settlement-color);
+                height: 2px;
+                width: 2px;
+                margin-left: -1px;
+                margin-top: -1px}
+        }
+        
+        @keyframes sett-town {
+            from {
+                background-color: var(--settlement-color);
+                height: 4px;
+                width: 4px;
+                margin-left: -2px;
+                margin-top: -2px
+            }
+            50% {
+                background-color: var(--settlement-color);
+            }
+            75% {
+                background-color: var(--towns-color);
+                height: 8px;
+                width: 8px;
+                margin-left: -4px;
+                margin-top: -4px}
+            to {
+                background-color: var(--towns-color);
+                height: 6px;
+                width: 6px;
+                margin-left: -3px;
+                margin-top: -3px
+            }
+        }
+        
+        @keyframes town-city {
+            from {
+                background-color: var(--towns-color);
+                height: 6px;
+                width: 6px;
+                margin-left: -3px;
+                margin-top: -3px
+            }
+            50% {
+                background-color: var(--towns-color);
+            }
+            75% {
+                background-color: var(--towns-color);
+                height: 10px;
+                width: 10px;
+                margin-left: -5px;
+                margin-top: -5px
+            }
+            to {
+                background-color: var(--cities-color);
+                height: 8px;
+                width: 8px;
+                margin-left: -4px;
+                margin-top: -4px}
+        }
+        
+        @keyframes x-annex {
+            from {
+                opacity: 0.0;
+                height: 12px;
+                width: 12px;
+                margin-left: -6px;
+                margin top: -6px;
+            }
+            to {
+                opacity: 0.6;
+                height: 10px;
+                width: 10px;
+                margin-left: -5px;
+                margin-right: -5px;
+            }
+        }
+
+        /*These CSS classes define the markers. They are called later in the JS.*/ 
+        
+        .settlement-point {
+        animation: sett-in 0.5s;
+        background-color: var(--settlement-color);
+        border-radius: var(--circle-rad);
+        border: var(--pt-borders);
+        opacity: 0.8;
+        margin-right: -3px;
+        margin-top: -3px
+        }
+        
+        .town-point {
+        animation: sett-town 0.5s;
+        background-color: var(--towns-color);
+        border-radius: var(--circle-rad);
+        border: var(--pt-borders);
+        opacity: var(--pt-opacity);
+        }
+        
+        .city-point {
+        animation: town-city 0.5s;
+        background-color: var(--cities-color);
+        border-radius: var(--circle-rad);
+        border: var(--pt-borders);
+        opacity: var(--pt-opacity);
+        }
+        
+        .annex-point {
+        animation: x-annex 0.5s;
+        background-color: var(--annex-color);
+        border: var(--pt-borders);
+        border-radius: var(--circle-rad);
+        opacity: var(--pt-opacity);
+        }
+
+    </style>
 </head>
-</HTML>
+
+<body>
+
+    <!--These scripts call the geoJSON data. I  could probably make them all one file if I wanted to go through and change all the L.timeline calls.-->
+    
+    <script src="data/masettlements.geojson" type="text/javascript"></script>
+    <script src="data/matowns.geojson" type="text/javascript"></script>
+    <script src="data/macities.geojson" type="text/javascript"></script>
+    <script src="data/maannexes.geojson" type=text/javascript></script>    
+    
+    <div id='map'></div>
+    
+    <script>    
+    
+    //This creates the map and sets its variables.
+        
+    var map = L.map('map', {
+        center: [42.046,-71.858],
+        zoom: 8,
+        fullscreenControl: {
+            Fullscreen: true
+        }
+      });
+      
+    //This calls map tiles and sets tile variables.
+        
+    var tiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
+	   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+	   subdomains: 'abcd',
+	   maxZoom: 19
+    });
+      
+    tiles.addTo(map);
+        
+    //This bit creates the timeline slider, sets its variables, and adds it to the map. Uses the moment plugin to parse dates.
+        
+    var slider = L.timelineSliderControl({
+        formatOutput: function(date){
+        return moment(date).format("YYYY");
+        }, position: "bottomleft",
+        duration: 15000,
+        showTicks: false,
+        waitToUpdateMap: true
+    });
+        
+    map.addControl(slider);
+    
+    //This defines the settlement marker layer. Interfaces with timeline by using L.timeline instead of L.geojson to call the geoJSON file.
+        
+    var maSettlementsTimeline = L.timeline(masettlements, {    
+        pointToLayer: function(feature,latlng) {
+            return L.marker(latlng, {
+        
+                //divIcon lets the markers be defined by the CSS properties above. Useful for using CSS styling & animations. className refers to the CSS class where the style is defined. Other variables defined here (iconSize) take effect after animations complete.
+                
+                icon: L.divIcon({
+                    className: 'settlement-point',
+                    iconSize: [4,4]
+                })
+            });
+       },
+        
+        //Filters out settlement points from the geoJSON file.
+        
+        filter: function(feature,layer){
+            if(feature.properties.type == "settlement"){
+                return feature;
+            }
+        },
+        
+        //Creates on each feature a popup with some info and a mouseover/mouseout function to highligh markers when hovered over by changing opacity.
+        
+        onEachFeature: function(feature,layer) {
+            layer.bindPopup("Settlement of " + "<b style='color:yellowgreen'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.on('mouseover', function() {
+                layer.setOpacity(0.3)
+                });
+            layer.on('mouseout', function() {
+                layer.setOpacity(0.6)
+            });
+        }, 
+    });
+        
+    //Adds the markers to map.
+    
+    maSettlementsTimeline.addTo(map);
+        
+    //These three variables and .addTos work the same as above for the other marker types.
+        
+    var maTownsTimeline = L.timeline(matowns, {
+        pointToLayer: function(feature,latlng) {
+            return L.marker(latlng, {
+                icon: L.divIcon({
+                    className: 'town-point',
+                    iconSize: [6,6]
+                })
+            });
+       },
+        filter: function(feature,layer){
+            if(feature.properties.type == "town"){
+                return feature;
+            }
+        },
+        onEachFeature: function(feature,layer) {
+            layer.bindPopup("Town of " + "<b style='color:cornflowerblue'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.on('mouseover', function() {
+                layer.setOpacity(0.3)
+            });
+            layer.on('mouseout', function() {
+                layer.setOpacity(0.6);
+            });
+        },    
+    });
+    maTownsTimeline.addTo(map);
+        
+    var maCitiesTimeline = L.timeline(macities, {
+        pointToLayer: function(feature,latlng) {
+            return L.marker(latlng, {
+                icon: L.divIcon({
+                    className: 'city-point',
+                    iconSize: [8,8]
+                })
+            });
+        },
+        filter: function(feature,layer){
+            if(feature.properties.type == "city"){
+                return feature;
+            }
+        },
+        onEachFeature: function(feature,layer) {
+            layer.bindPopup("City of " + "<b style='color:indianred'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.on('mouseover', function() {
+                layer.setOpacity(0.3)
+            });
+            layer.on('mouseout', function() {
+                layer.setOpacity(0.6);
+            });
+        },    
+    });
+    maCitiesTimeline.addTo(map);
+        
+    var maAnnexesTimeline = L.timeline(maannexes, {
+        pointToLayer: function(feature,latlng) {
+            return L.marker(latlng, {
+                icon: L.divIcon({
+                    className: 'annex-point',
+                    iconSize: [8,8]
+                })
+            });
+        },
+        filter: function(feature,layer){
+            if(feature.properties.type == "annex"){
+                return feature;
+            }
+        },
+        onEachFeature: function(feature,layer) {
+            layer.bindPopup("<b style='color:black'>" + feature.properties.name + ": Annexed/Sunk" + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.on('mouseover', function() {
+                layer.setOpacity(0.3)
+            });
+            layer.on('mouseout', function() {
+                layer.setOpacity(0.6);
+            });
+        },    
+    });
+    maAnnexesTimeline.addTo(map);
+    
+    //This adds the four layers to the timeline slider so they all play simultaneously.
+        
+    slider.addTimelines(maSettlementsTimeline, maTownsTimeline, maCitiesTimeline, maAnnexesTimeline)
+
+    //This is a list of the four layers and text/formatting to pass into the layer control below. 
+        
+    var sourcesLayers = {
+        "<b style='color:#FFFFFF'>Settlements</b>": maSettlementsTimeline,
+        "<b style='color:#BF0A30'>Towns</b>": maTownsTimeline,
+        "<b style='color:#002868'>Cities</b>": maCitiesTimeline,
+        "<b style='color:#252525'>Annexed/Sunk</b>": maAnnexesTimeline
+    };
+    
+    //This controls the layers.    
+    
+    L.control.layers(null, sourcesLayers, {position: "topright", collapsed:false }).addTo(map);
+    
+    </script>
+    
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+var maannexes = {
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.084106,
+          42.3287315
+        ]
+      },
+      "properties": {
+        "name": "Roxbury",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1868",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.072441,
+          42.2918015
+        ]
+      },
+      "properties": {
+        "name": "Dorchester",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1870",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.062439,
+          42.3716888
+        ]
+      },
+      "properties": {
+        "name": "Charlestown",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1873",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.153282,
+          42.3496284
+        ]
+      },
+      "properties": {
+        "name": "Brighton",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1874",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.157082,
+          42.2834511
+        ]
+      },
+      "properties": {
+        "name": "West Roxbury",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1874",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.123947,
+          42.2564316
+        ]
+      },
+      "properties": {
+        "name": "Hyde Park",
+        "county": "Suffolk",
+        "type": "annex",
+        "start": "1912",
+        "end": "2019",
+        "annexed": "Boston"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.344719,
+          42.3916702
+        ]
+      },
+      "properties": {
+        "name": "Prescott",
+        "county": "",
+        "type": "annex",
+        "start": "1938",
+        "end": "2019",
+        "annexed": "Quabbin Reservoir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.566193,
+          42.1561852
+        ]
+      },
+      "properties": {
+        "name": "Dana",
+        "county": "",
+        "type": "annex",
+        "start": "1938",
+        "end": "2019",
+        "annexed": "Quabbin Reservoir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.332778,
+          42.316667
+        ]
+      },
+      "properties": {
+        "name": "Enfield",
+        "county": "",
+        "type": "annex",
+        "start": "1938",
+        "end": "2019",
+        "annexed": "Quabbin Reservoir"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.296389,
+          42.359167
+        ]
+      },
+      "properties": {
+        "name": "Greenwich",
+        "county": "",
+        "type": "annex",
+        "start": "1938",
+        "end": "2019",
+        "annexed": "Quabbin Reservoir"
+      }
+    }
+  ]
+}
