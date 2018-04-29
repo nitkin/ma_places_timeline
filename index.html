@@ -3,7 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
-    <title>Title</title>
+    <title>MA Timeline</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
     <!--Leaflet scripts:-->
@@ -23,6 +23,18 @@
             height: calc(100%); 
             width: 100%; 
             position: absolute !important; 
+        }
+        
+        /*This defines the map title properties.*/
+        
+        #title {
+            position: absolute;
+            top: 80%;
+            width: 100%;
+            font-size: 24pt;
+            padding-left: 18px;
+            text-align: left;
+            z-index: 9999;
         }
         
         body {
@@ -59,7 +71,12 @@
         .leaflet-control-layers-expanded { 
             background: #BBBBBB; 
         }
-
+        
+        .leaflet-popup-content-wrapper,
+        .leaflet-popup-tip {
+            background-color: #BBBBBB;
+        }
+        
         /*These are all the variables used in animations and transitions. Change these to change marker colors.*/
         
         :root{
@@ -193,7 +210,7 @@
         .annex-point {
         animation: x-annex 0.5s;
         background-color: var(--annex-color);
-        border: var(--pt-borders);
+        border: 1px solid #BF0A30;
         border-radius: var(--circle-rad);
         opacity: var(--pt-opacity);
         }
@@ -212,6 +229,13 @@
     
     <div id='map'></div>
     
+    <!--This makes the map title.-->
+    
+    <div id='title'>
+        <p style="font-size:18px;line-height:0px">400 Years:</p>
+        <p style="line-height:0px">Massachusetts</p>
+        <p style="font-size:18px; line-height: 0px"> Settlements, Towns, and Cities</p></div>
+        
     <script>    
     
     //This creates the map and sets its variables.
@@ -227,7 +251,7 @@
     //This calls map tiles and sets tile variables.
         
     var tiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
-	   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+	   attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a> | <a href="https://nitkin.github.io/">Evan Nitkin</a>',
 	   subdomains: 'abcd',
 	   maxZoom: 19
     });
@@ -273,7 +297,7 @@
         //Creates on each feature a popup with some info and a mouseover/mouseout function to highligh markers when hovered over by changing opacity.
         
         onEachFeature: function(feature,layer) {
-            layer.bindPopup("Settlement of " + "<b style='color:yellowgreen'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.bindPopup("Settlement of " + "<b style='color:#FFFFFF'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
             layer.on('mouseover', function() {
                 layer.setOpacity(0.3)
                 });
@@ -304,7 +328,7 @@
             }
         },
         onEachFeature: function(feature,layer) {
-            layer.bindPopup("Town of " + "<b style='color:cornflowerblue'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.bindPopup("Town of " + "<b style='color:#BF0A30'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
             layer.on('mouseover', function() {
                 layer.setOpacity(0.3)
             });
@@ -330,7 +354,7 @@
             }
         },
         onEachFeature: function(feature,layer) {
-            layer.bindPopup("City of " + "<b style='color:indianred'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
+            layer.bindPopup("City of " + "<b style='color:#002868'>" + feature.properties.name + "</b><br>" + feature.properties.start + " - " + feature.properties.end);
             layer.on('mouseover', function() {
                 layer.setOpacity(0.3)
             });
