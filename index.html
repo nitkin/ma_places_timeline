@@ -8,9 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
 
     <!--[if !IE]>
-        <script type="text/javascript">
-            alert(Features of this map are not supported in Internet Explorer. Please use a different browser.)
-        </script>
+            <script type="text/javascript">
+                alert("Features of this map are not supported in Internet Explorer. Please use a different browser.");
+            </script>
     <[endif]-->
     
     <meta charset=utf-8 />
@@ -246,7 +246,7 @@
     <script src="data/masettlements.geojson" type="text/javascript"></script>
     <script src="data/matowns.geojson" type="text/javascript"></script>
     <script src="data/macities.geojson" type="text/javascript"></script>
-    <script src="data/maannexes.geojson" type=text/javascript></script>    
+    <script src="data/maannexes.geojson" type=text/javascript></script>   
     
     <div id='map'></div>
     
@@ -259,9 +259,10 @@
     </div>
         
     <script>    
-    
-    //This creates the map and sets its variables.
+
         
+    //This creates the map and sets its variables.
+      
     var map = L.map('map', {
         center: [42.046,-71.858],
         zoom: 8,
