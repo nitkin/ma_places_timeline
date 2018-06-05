@@ -37,6 +37,16 @@
             z-index: 9999;
         }
         
+        #internetExplorerError {
+            position: absolute;
+            top: 15px;
+            width: 96%;
+            font-size: 24pt;
+            margin-left: 2%;
+            text-align: left;
+            z-index: 9999;
+        }
+        
         body {
             margin: 0;
             padding: 0;
@@ -229,22 +239,23 @@
     
     <div id='map'></div>
     
+    <!--Instructs map not to load in IE. Instead alerts user to use a different browser. [The leaflet.timeline plugin used does not support IE.]-->
+        
+    <!--[if !IE]>
+        <script type="text/javascript">
+            <div style=internetExplorerError>Features of this map are not supported in Internet Explorer. Please use a different browser.</div>
+        </script>
+    <![endif]-->
+    
     <!--This makes the map title.-->
     
     <div id='title'>
         <p style="font-size:18px;line-height:0px">400 Years:</p>
         <p style="line-height:0px">Massachusetts</p>
-        <p style="font-size:18px; line-height: 0px"> Settlements, Towns, and Cities</p></div>
+        <p style="font-size:18px; line-height: 0px"> Settlements, Towns, and Cities</p>
+    </div>
         
     <script>    
-        
-    //Instructs map not to load in IE. Instead alerts user to use a different browser. [The leaflet.timeline plugin used does not support IE.]
-        
-    <!--[if !IE]>
-        <script type="text/javascript">
-            alert("Features of this map are not supported in Internet Explorer. Please use a different browser.");
-        </script>
-    <![endif]-->
     
     //This creates the map and sets its variables.
         
