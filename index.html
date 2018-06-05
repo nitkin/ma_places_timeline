@@ -240,12 +240,14 @@
     <div id='map'></div>
     
     <!--Instructs map not to load in IE. Instead alerts user to use a different browser. [The leaflet.timeline plugin used does not support IE.]-->
-        
-    <![if !IE]>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+    
+    <!--[if !IE]>
         <script type="text/javascript">
-            <div style=internetExplorerError>Features of this map are not supported in Internet Explorer. Please use a different browser.</div>
+            alert(Features of this map are not supported in Internet Explorer. Please use a different browser.)
         </script>
-    <![endif]>
+    <!--[endif]>
     
     <!--This makes the map title.-->
     
